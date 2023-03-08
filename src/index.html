@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Canada</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="canada.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Canada</h1>
+      <nav>
+        <ul>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#meal">Meals</a></li>
+          <li><a href="#weather">Weather</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    
+      <section id="explore">
+        <div class="card">
+            <h2>Explore Canada</h2>
+            <img src="canada.jpg" alt="Canada" style="max-width: 50%; display: block; margin: 0 auto;"><br>
+            <p>Canada is a vast and beautiful country with a lot to offer visitors. From the cosmopolitan cities of Toronto and Vancouver to the stunning natural wonders of Banff National Park and the Niagara Falls, there's something for everyone in Canada. Whether you're interested in outdoor activities like hiking and skiing or cultural experiences like museums and festivals, you'll find plenty to do in Canada.</p>
+        </div>
+        <div class="card">
+          <img src="toronto.jpg" alt="Toronto" style="max-width: 50%; display: block; margin: 0 auto;"><br>
+          <h3>Toronto</h3>
+          <p>Discover Canada's largest city, a bustling metropolis with a diverse mix of cultures, foods, and attractions.
+            Toronto is the capital city of the Canadian province of Ontario. With a recorded population of 2,794,356 in 2021, 
+            it is the most populous city in Canada and the fourth most populous city in North America. 
+            The city is the anchor of the Golden Horseshoe, an urban agglomeration of 9,765,188 people (as of 2021) 
+            surrounding the western end of Lake Ontario, while the Greater Toronto Area proper had a 2021 population of 6,712,341.
+            Toronto is an international centre of business, finance, arts, sports and culture, and is recognized as one of the most 
+            multicultural and cosmopolitan cities in the world.
+          </p>
+        </div>
+        <div class="card">
+          <img src="banff.jpg"  style="max-width: 50%; display: block; margin: 0 auto;"><br>
+          <h3>Banff National Park</h3>
+          <p>Banff National Park is famous for its vibrant lakes, majestic mountains and easy access to outdoor adventures of all kinds.
+
+            The park spans 6,641 square kilometres (2,564 square miles) of striking mountainous terrain in the vast wilderness of the Canadian Rockies. Canada’s first national park and the world’s third, it has a rich heritage as one of the world’s most awe-inspiring mountain destinations.
+            
+            The bustling Banff townsite and village of Lake Louise are uniquely located in the national park. In this one of a kind place, there’s something for everyone to discover. Whether you come for the spectacular valleys and rugged peaks, the authentic Canadian eats, the vibrant arts and culture scene, or a little bit of everything, there’s no shortage of unforgettable ways to immerse yourself in Banff National Park.</p>
+        </div>
+        <div class="card">
+          <img src="niagara.jpg" alt="Niagara Falls"style="max-width: 50%; display: block; margin: 0 auto;"><br>
+          <h3>Niagara Falls</h3>
+          <p>Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the province of Ontario in Canada and the state of New York in the United States. The largest of the three is Horseshoe Falls, which straddles the international border of the two countries. It is also known as the Canadian Falls.</p>
+        </div>
+        <div class="card">
+          <img src="quebac.jpg" alt="Quebac"style="max-width: 50%; display: block; margin: 0 auto;"><br>
+          <h3>Quebac</h3>
+          <p>Quebec City or French: Ville de Québec, officially Québec , is the capital city of the Canadian province of Quebec. As of July 2021, the city had a population of 549,459, and the metropolitan area had a population of 839,311. It is the eleventh-largest city and the seventh-largest metropolitan area in Canada. It is also the second-largest city in the province after Montreal. It has a humid continental climate with warm summers coupled with cold and snowy winters.</p>
+        </div>
+      </section>
+            <section id="meal">
+              <div class="card">
+                <h1>Meals</h1>
+            <form id="search-form">
+              <label for="meal-select">Select a meal:</label>
+              <select id="meal-select" name="meal-select">
+                <option value="">--Select a meal--</option>
+                <option value="Poutine">Poutine</option>
+                <option value="Canadian Butter Tarts">Canadian Butter Tarts</option>
+                <option value="Nanaimo Bars">Nanaimo Bars</option>
+                <option value="Split Pea Soup">Split Pea Soup</option>
+                <option value="Tourtiere">Tourtiere</option>    
+                <option value="Montreal Smoked Meat">Montreal Smoked Meat</option>
+                <option value="BeaverTails">BeaverTails</option>   
+                <option value="Timbits">Timbits</option>   
+                <option value="Pate Chinois">Pate Chinois</option>   
+                <option value="Pouding chomeur">Pouding chomeur</option>   
+                <option value="Rappie Pie">Rappie Pie</option>   
+                <option value="Breakfast Potatoes">Breakfast Potatoes</option>          
+                <!-- Add more options here -->
+              </select>
+              <button type="submit">Search</button>
+            </form>
+            <div id="meal-details"></div>
+            <div id="ingredient-list"></div>
+            </div>
+            </section>
+            <section id="weather">
+                <div class="card">
+                  <h2>Weather in Canada</h2>
+                    <section id="services" class="services" >
+                              <h2 class="title">Find Weather for Your City</h2>
+                              <div class="weather-search-box">
+                                <select class="search-control" id="search-input">
+                                  <option value="">Select a city</option>
+                                  <option value="Alberta">Alberta</option>
+                                  <option value="British Columbia">British Columbia</option>
+                                  <option value="Manitoba">Manitoba</option>
+                                  <option value="New Brunswick">New Brunswick</option>
+                                  <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                                  <option value="Northwest Territories">Northwest Territories</option>
+                                  <option value="Nova Scotia">Nova Scotia</option>
+                                  <option value="Nunavut">Nunavut</option>
+                                  <option value="Ontario">Ontario</option>
+                                  <option value="Prince Edward Island">Price Edward Island</option>
+                                  <option value="Quebec">Quebec</option>
+                                  <option value="Saskatchewan">Saskatchewan</option>
+                                  <option value="Yukon">Yukon</option>
+                                </select>
+                                <button type="submit" class="search-btn btn" id="search-btn">
+                                  <i class="fas fa-search"></i> Search
+                                </button>
+                              </div>
+                            </div>
+                            <div class="weather-result">
+                              <h2 class="title">Your Search Results:</h2>
+                              <div id="weather">
+                                <div class="weather-item">
+                                  <div class="weather-name">
+                                    <h3>City Name</h3>
+                                  </div>
+                                  <div class="weather-details">
+                                    <p>Temperature: <span class="temp"></span></p>
+                                    <p>Weather: <span class="weather"></span></p>
+                                    <p>Humidity: <span class="humidity"></span></p>
+                                    <p>Wind: <span class="wind"></span></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                      </section>
+              </div>
+              </div>
+            </section>
+            </main>
+            <footer>
+            <p>© 2023 Travel Canada by Adam . All rights reserved.</p>
+            </footer>
+            <script src="canada.js"></script>
+              </body>
+            </html>
